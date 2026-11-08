@@ -1,0 +1,238 @@
+Script started on Sun Nov  8 00:08:47 2026
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Marcuss-Air.attlocal.net/Users/marcusbryant
+[0m[27m[24m[Jmarcusbryant@Marcuss-Air ~ % [K[?2004h[7mpython3 -m huggingface_hub.commands.huggingface_cli[7m [7mdownload bartowski/Meta-Llama-3-70B-Instruct-GGUF Meta-Llama-3-70B-Instruct-Q3_[7mK[7m_M.gguf --local-dir ./llama3-70b[27m[K[A[A[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mh[27mu[27mg[27mg[27mi[27mn[27mg[27mf[27ma[27mc[27me[27m_[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27mm[27ma[27mn[27md[27ms[27m.[27mh[27mu[27mg[27mg[27mi[27mn[27mg[27mf[27ma[27mc[27me[27m_[27mc[27ml[27mi [27md[27mo[27mw[27mn[27ml[27mo[27ma[27md[27m [27mb[27ma[27mr[27mt[27mo[27mw[27ms[27mk[27mi[27m/[27mM[27me[27mt[27ma[27m-[27mL[27ml[27ma[27mm[27ma[27m-[27m3[27m-[27m7[27m0[27mB[27m-[27mI[27mn[27ms[27mt[27mr[27mu[27mc[27mt[27m-[27mG[27mG[27mU[27mF[27m [27mM[27me[27mt[27ma[27m-[27mL[27ml[27ma[27mm[27ma[27m-[27m3[27m-[27m7[27m0[27mB[27m-[27mI[27mn[27ms[27mt[27mr[27mu[27mc[27mt[27m-[27mQ[27m3[27m_K[27m_[27mM[27m.[27mg[27mg[27mu[27mf[27m [27m-[27m-[27ml[27mo[27mc[27ma[27ml[27m-[27md[27mi[27mr[27m [27m.[27m/[27ml[27ml[27ma[27mm[27ma[27m3[27m-[27m7[27m0[27mb[?2004l
+
+/Users/marcusbryant/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[33m⚠️  Warning: 'huggingface-cli download' is deprecated. Use 'hf download' instead.[0m
+'(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: e41e0cfc-c1bf-47ed-8418-5ec976ea9690)')' thrown while requesting HEAD https://huggingface.co/bartowski/Meta-Llama-3-70B-Instruct-GGUF/resolve/main/Meta-Llama-3-70B-Instruct-Q3_K_M.gguf
+Retrying in 1s [Retry 1/5].
+Downloading 'Meta-Llama-3-70B-Instruct-Q3_K_M.gguf' to 'llama3-70b/.cache/huggingface/download/5ow8OR68RKDVDNcgWU8m-aEbo-c=.fd96573523115fc36f7b69bfbf76e43041d62c944087cba288a1edd5650c598d.incomplete'
+
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   0%|       | 0.00/34.3G [00:00<?, ?B/s]
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   0%| | 187k/34.3G [00:02<101:57:07, 93.
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   0%| | 187k/34.3G [00:20<101:57:07, 93.
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   0%| | 7.87M/34.3G [00:22<26:59:37, 353
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   0%| | 142M/34.3G [00:28<1:24:45, 6.71M
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   1%| | 209M/34.3G [00:30<57:51, 9.81MB/
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   3%| | 864M/34.3G [00:41<16:26, 33.9MB/
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   3%| | 890M/34.3G [00:50<24:45, 22.5MB/
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   3%| | 1.04G/34.3G [00:50<18:06, 30.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   3%| | 1.08G/34.3G [00:53<19:32, 28.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   3%| | 1.15G/34.3G [00:54<17:25, 31.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   4%| | 1.22G/34.3G [01:03<29:35, 18.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   4%| | 1.35G/34.3G [01:11<30:40, 17.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   5%| | 1.88G/34.3G [01:12<10:05, 53.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   6%| | 1.95G/34.3G [01:21<17:19, 31.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   6%| | 2.01G/34.3G [01:26<20:38, 26.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   6%| | 2.08G/34.3G [01:31<23:24, 22.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   6%| | 2.22G/34.3G [01:31<16:02, 33.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   8%| | 2.84G/34.3G [01:40<09:59, 52.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   8%| | 2.91G/34.3G [01:51<17:06, 30.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:   9%| | 3.03G/34.3G [01:53<15:41, 33.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  10%| | 3.34G/34.3G [01:59<13:18, 38.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  10%| | 3.44G/34.3G [02:00<11:28, 44.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  11%| | 3.70G/34.3G [02:07<12:13, 41.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  11%| | 3.77G/34.3G [02:12<15:04, 33.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  11%| | 3.85G/34.3G [02:15<16:01, 31.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  12%| | 4.07G/34.3G [02:15<09:59, 50.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  13%|▏| 4.31G/34.3G [02:19<08:43, 57.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  13%|▏| 4.43G/34.3G [02:23<10:56, 45.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  15%|▏| 5.08G/34.3G [02:33<08:41, 55.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  15%|▏| 5.12G/34.3G [02:43<14:20, 33.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  15%|▏| 5.17G/34.3G [02:48<17:01, 28.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  16%|▏| 5.36G/34.3G [02:51<14:13, 33.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  17%|▏| 5.86G/34.3G [02:52<06:47, 69.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  17%|▏| 5.93G/34.3G [03:06<15:14, 31.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  17%|▏| 5.97G/34.3G [03:06<14:50, 31.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  19%|▏| 6.59G/34.3G [03:15<09:36, 48.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  20%|▏| 6.68G/34.3G [03:25<14:14, 32.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  21%|▏| 7.17G/34.3G [03:36<11:56, 37.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  21%|▏| 7.32G/34.3G [03:36<09:55, 45.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  22%|▏| 7.39G/34.3G [03:44<14:40, 30.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  22%|▏| 7.45G/34.3G [03:55<21:14, 21.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  22%|▏| 7.63G/34.3G [03:55<15:07, 29.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  23%|▏| 7.91G/34.3G [03:58<10:03, 43.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  24%|▏| 8.12G/34.3G [04:00<08:41, 50.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  25%|▏| 8.55G/34.3G [04:18<12:42, 33.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  26%|▎| 8.77G/34.3G [04:24<12:17, 34.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  26%|▎| 8.82G/34.3G [04:36<19:27, 21.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  27%|▎| 9.32G/34.3G [04:42<11:40, 35.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  28%|▎| 9.48G/34.3G [04:47<11:48, 35.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  29%|▎| 9.78G/34.3G [04:57<12:28, 32.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  29%|▎| 9.84G/34.3G [05:01<13:18, 30.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  29%|▎| 10.0G/34.3G [05:12<16:11, 24.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  31%|▎| 10.5G/34.3G [05:12<08:06, 48.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  31%|▎| 10.6G/34.3G [05:29<16:19, 24.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  32%|▎| 11.1G/34.3G [05:33<09:43, 39.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  33%|▎| 11.2G/34.3G [05:42<11:38, 33.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  33%|▎| 11.3G/34.3G [05:44<12:21, 31.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  34%|▎| 11.6G/34.3G [05:55<12:05, 31.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  35%|▎| 11.9G/34.3G [06:04<12:33, 29.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  36%|▎| 12.4G/34.3G [06:16<10:28, 34.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  36%|▎| 12.5G/34.3G [06:18<09:54, 36.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  37%|▎| 12.6G/34.3G [06:29<14:42, 24.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  37%|▎| 12.7G/34.3G [06:33<13:37, 26.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  37%|▎| 12.8G/34.3G [06:43<17:24, 20.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  39%|▍| 13.3G/34.3G [06:45<07:53, 44.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  39%|▍| 13.5G/34.3G [06:55<10:04, 34.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  40%|▍| 13.6G/34.3G [07:02<12:45, 27.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  40%|▍| 13.8G/34.3G [07:09<12:24, 27.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  41%|▍| 14.2G/34.3G [07:14<08:33, 39.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  42%|▍| 14.3G/34.3G [07:25<12:47, 26.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  43%|▍| 14.7G/34.3G [07:34<10:12, 32.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  43%|▍| 14.8G/34.3G [07:34<09:08, 35.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  44%|▍| 14.9G/34.3G [07:37<07:52, 41.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  44%|▍| 14.9G/34.3G [07:45<13:15, 24.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  44%|▍| 15.0G/34.3G [07:50<15:22, 20.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  45%|▍| 15.6G/34.3G [07:53<06:11, 50.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  46%|▍| 15.6G/34.3G [07:58<07:34, 41.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  46%|▍| 15.7G/34.3G [08:08<12:07, 25.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  46%|▍| 15.8G/34.3G [08:11<11:25, 26.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  46%|▍| 15.9G/34.3G [08:17<14:04, 21.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  48%|▍| 16.5G/34.3G [08:21<05:35, 52.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  48%|▍| 16.5G/34.3G [08:25<06:50, 43.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  48%|▍| 16.6G/34.3G [08:27<07:48, 37.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  49%|▍| 16.8G/34.3G [08:35<09:14, 31.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  49%|▍| 16.8G/34.3G [08:37<08:39, 33.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  50%|▍| 17.0G/34.3G [08:38<06:06, 47.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  50%|▍| 17.1G/34.3G [08:48<12:01, 23.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  51%|▌| 17.6G/34.3G [08:53<05:36, 49.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  52%|▌| 17.8G/34.3G [08:54<05:10, 53.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  52%|▌| 17.8G/34.3G [09:05<10:24, 26.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  52%|▌| 17.8G/34.3G [09:10<13:22, 20.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  54%|▌| 18.4G/34.3G [09:12<04:44, 55.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  54%|▌| 18.4G/34.3G [09:30<04:44, 55.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  55%|▌| 18.9G/34.3G [09:30<06:57, 36.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  56%|▌| 19.1G/34.3G [09:39<07:56, 31.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  56%|▌| 19.1G/34.3G [09:41<07:52, 32.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  56%|▌| 19.3G/34.3G [09:49<08:35, 29.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  58%|▌| 19.7G/34.3G [09:51<05:01, 48.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  58%|▌| 19.9G/34.3G [09:58<06:14, 38.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  59%|▌| 20.1G/34.3G [10:08<07:12, 32.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  59%|▌| 20.2G/34.3G [10:12<08:01, 29.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  60%|▌| 20.5G/34.3G [10:14<04:46, 47.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  61%|▌| 20.8G/34.3G [10:23<05:40, 39.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  61%|▌| 20.9G/34.3G [10:29<06:44, 33.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  62%|▌| 21.3G/34.3G [10:38<05:33, 38.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  63%|▋| 21.5G/34.3G [10:38<04:19, 49.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  63%|▋| 21.5G/34.3G [10:50<04:19, 49.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  63%|▋| 21.6G/34.3G [10:56<09:35, 22.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  64%|▋| 21.9G/34.3G [10:56<05:23, 38.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  65%|▋| 22.1G/34.3G [11:00<04:51, 41.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  65%|▋| 22.2G/34.3G [11:06<06:19, 31.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  66%|▋| 22.6G/34.3G [11:14<05:27, 35.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  67%|▋| 23.1G/34.3G [11:26<04:40, 39.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  67%|▋| 23.1G/34.3G [11:40<04:40, 39.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  68%|▋| 23.4G/34.3G [11:42<06:14, 29.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  69%|▋| 23.7G/34.3G [11:45<04:25, 39.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  70%|▋| 24.0G/34.3G [11:57<05:17, 32.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  71%|▋| 24.3G/34.3G [12:03<04:12, 39.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  71%|▋| 24.4G/34.3G [12:04<04:16, 38.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  71%|▋| 24.4G/34.3G [12:09<05:00, 32.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  72%|▋| 24.6G/34.3G [12:14<05:21, 30.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  74%|▋| 25.2G/34.3G [12:22<03:06, 48.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  74%|▋| 25.2G/34.3G [12:31<04:38, 32.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  74%|▋| 25.3G/34.3G [12:31<04:20, 34.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  74%|▋| 25.4G/34.3G [12:43<06:25, 22.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  75%|▊| 25.7G/34.3G [12:46<04:15, 33.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  76%|▊| 25.9G/34.3G [12:47<03:22, 41.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  76%|▊| 26.0G/34.3G [12:50<03:38, 38.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  76%|▊| 26.0G/34.3G [12:56<04:33, 30.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  77%|▊| 26.2G/34.3G [13:03<04:30, 29.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  77%|▊| 26.4G/34.3G [13:03<03:25, 38.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  78%|▊| 26.6G/34.3G [13:09<03:11, 39.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  78%|▊| 26.6G/34.3G [13:20<03:11, 39.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  79%|▊| 26.9G/34.3G [13:22<03:58, 30.9MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  79%|▊| 27.2G/34.3G [13:22<02:32, 46.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  80%|▊| 27.3G/34.3G [13:24<02:38, 44.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  80%|▊| 27.3G/34.3G [13:34<04:42, 24.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  80%|▊| 27.4G/34.3G [13:36<04:01, 28.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  80%|▊| 27.5G/34.3G [13:37<03:10, 35.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  81%|▊| 27.6G/34.3G [13:40<03:24, 32.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  81%|▊| 27.7G/34.3G [13:44<03:47, 29.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  82%|▊| 28.3G/34.3G [13:48<01:27, 68.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  83%|▊| 28.3G/34.3G [13:55<02:27, 40.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  83%|▊| 28.4G/34.3G [14:01<03:11, 30.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  83%|▊| 28.5G/34.3G [14:04<03:00, 31.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  84%|▊| 28.7G/34.3G [14:05<02:05, 44.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  84%|▊| 28.8G/34.3G [14:06<01:55, 47.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  85%|▊| 29.0G/34.3G [14:08<01:29, 59.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  85%|▊| 29.1G/34.3G [14:10<01:27, 59.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  86%|▊| 29.3G/34.3G [14:23<02:41, 30.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  87%|▊| 29.7G/34.3G [14:27<01:42, 44.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  87%|▊| 29.7G/34.3G [14:40<01:42, 44.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  88%|▉| 30.3G/34.3G [14:41<01:29, 44.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  89%|▉| 30.4G/34.3G [14:56<02:27, 26.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  89%|▉| 30.6G/34.3G [14:59<02:01, 30.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  91%|▉| 31.1G/34.3G [15:05<01:10, 45.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  91%|▉| 31.2G/34.3G [15:15<01:33, 32.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  91%|▉| 31.3G/34.3G [15:16<01:25, 34.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  92%|▉| 31.5G/34.3G [15:23<01:21, 33.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  92%|▉| 31.6G/34.3G [15:24<01:11, 37.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  93%|▉| 31.9G/34.3G [15:25<00:39, 60.2MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  93%|▉| 31.9G/34.3G [15:35<01:17, 30.1MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  94%|▉| 32.2G/34.3G [15:40<00:53, 38.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  95%|▉| 32.6G/34.3G [15:47<00:37, 43.8MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  95%|▉| 32.7G/34.3G [15:52<00:45, 34.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  96%|▉| 32.9G/34.3G [15:53<00:28, 48.0MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  96%|▉| 33.0G/34.3G [15:58<00:29, 41.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  97%|▉| 33.1G/34.3G [15:58<00:25, 45.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  97%|▉| 33.2G/34.3G [16:09<00:37, 27.3MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  98%|▉| 33.7G/34.3G [16:09<00:08, 62.7MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  99%|▉| 33.8G/34.3G [16:19<00:13, 34.6MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  99%|▉| 33.9G/34.3G [16:21<00:08, 39.5MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf:  99%|▉| 34.0G/34.3G [16:22<00:06, 39.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf: 100%|█| 34.3G/34.3G [16:24<00:00, 57.4MB
+Meta-Llama-3-70B-Instruct-Q3_K_M.gguf: 100%|█| 34.3G/34.3G [16:25<00:00, 34.8MB
+Download complete. Moving file to llama3-70b/Meta-Llama-3-70B-Instruct-Q3_K_M.gguf
+llama3-70b/Meta-Llama-3-70B-Instruct-Q3_K_M.gguf
+[1m[7m%[27m[1m[0m                                                                               
+ 
+]7;file://Marcuss-Air.attlocal.net/Users/marcusbryant
+[0m[27m[24m[Jmarcusbryant@Marcuss-Air ~ % [K[?2004h[7mcaffeinate -dims llama-cli -m ./llama3-70b/Meta-Lla[7mm[7ma-3-70B-Instruct-Q3_K_M.gguf -ngl 0 -t 4 --no-warmup -p "You are a hardware opt[7mi[7mmization expert. Explain how layer-wise model streaming allows a 70-billion par[7ma[7mmeter frontier model to run on a laptop with only 8GB of unified memory, and wh[7my[7m this democratizes access to advanced AI for developers with constrained hardwa[7mr[7me." -n 150 -c 512[27m[K[5A[11C[27mc[27ma[27mf[27mf[27me[27mi[27mn[27ma[27mt[27me[27m [27m-[27md[27mi[27mm[27ms[27m [27ml[27ml[27ma[27mm[27ma[27m-[27mc[27ml[27mi[27m [27m-[27mm[27m [27m.[27m/[27ml[27ml[27ma[27mm[27ma[27m3[27m-[27m7[27m0[27mb[27m/[27mM[27me[27mt[27ma[27m-[27mL[27ml[27mam[27ma[27m-[27m3[27m-[27m7[27m0[27mB[27m-[27mI[27mn[27ms[27mt[27mr[27mu[27mc[27mt[27m-[27mQ[27m3[27m_[27mK[27m_[27mM[27m.[27mg[27mg[27mu[27mf[27m [27m-[27mn[27mg[27ml[27m [27m0[27m [27m-[27mt[27m [27m4[27m [27m-[27m-[27mn[27mo[27m-[27mw[27ma[27mr[27mm[27mu[27mp[27m [27m-[27mp[27m [27m"[27mY[27mo[27mu[27m [27ma[27mr[27me[27m [27ma[27m [27mh[27ma[27mr[27md[27mw[27ma[27mr[27me[27m [27mo[27mp[27mti[27mm[27mi[27mz[27ma[27mt[27mi[27mo[27mn[27m [27me[27mx[27mp[27me[27mr[27mt[27m.[27m [27mE[27mx[27mp[27ml[27ma[27mi[27mn[27m [27mh[27mo[27mw[27m [27ml[27ma[27my[27me[27mr[27m-[27mw[27mi[27ms[27me[27m [27mm[27mo[27md[27me[27ml[27m [27ms[27mt[27mr[27me[27ma[27mm[27mi[27mn[27mg[27m [27ma[27ml[27ml[27mo[27mw[27ms[27m [27ma[27m [27m7[27m0[27m-[27mb[27mi[27ml[27ml[27mi[27mo[27mn[27m [27mp[27ma[27mra[27mm[27me[27mt[27me[27mr[27m [27mf[27mr[27mo[27mn[27mt[27mi[27me[27mr[27m [27mm[27mo[27md[27me[27ml[27m [27mt[27mo[27m [27mr[27mu[27mn[27m [27mo[27mn[27m [27ma[27m [27ml[27ma[27mp[27mt[27mo[27mp[27m [27mw[27mi[27mt[27mh[27m [27mo[27mn[27ml[27my[27m [27m8[27mG[27mB[27m [27mo[27mf[27m [27mu[27mn[27mi[27mf[27mi[27me[27md[27m [27mm[27me[27mm[27mo[27mr[27my[27m,[27m [27ma[27mn[27md[27m [27mw[27mhy[27m [27mt[27mh[27mi[27ms[27m [27md[27me[27mm[27mo[27mc[27mr[27ma[27mt[27mi[27mz[27me[27ms[27m [27ma[27mc[27mc[27me[27ms[27ms[27m [27mt[27mo[27m [27ma[27md[27mv[27ma[27mn[27mc[27me[27md[27m [27mA[27mI[27m [27mf[27mo[27mr[27m [27md[27me[27mv[27me[27ml[27mo[27mp[27me[27mr[27ms[27m [27mw[27mi[27mt[27mh[27m [27mc[27mo[27mn[27ms[27mt[27mr[27ma[27mi[27mn[27me[27md[27m [27mh[27ma[27mr[27md[27mw[27mar[27me[27m.[27m"[27m [27m-[27mn[27m [27m1[27m5[27m0[27m [27m-[27mc[27m [27m5[27m1[27m2[?2004l
+
+
+
+Loading model... |-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\ 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b12110-cd959bae9
+model      : ./llama3-70b/Meta-Llama-3-70B-Instruct-Q3_K_M.gguf
+ftype      : Q3_K - Medium
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+[1m[32m
+> You are a hardware optimization expert. Explain how layer-wise model streaming allows a 70-billion parameter frontier model to run on a laptop with only 8GB of unified memory, and why this democratizes access to advanced AI for developers with constrained hardware.
+[0mWhat a great question!
+
+Layer-wise model streaming is a technique that enables the deployment of massive neural networks, like the 70-billion parameter frontier model you mentioned, on resource-constrained devices, such as a laptop with only 8GB of unified memory. This is achieved by cleverly managing the model's memory footprint, allowing it to fit into the available memory without sacrificing performance.
+
+Here's how it works:
+
+**The Problem:**
+Traditional deep learning models are designed to process entire input batches at once, which requires a significant amount of memory to store the model's weights, activations, and gradients. As models grow in size, their memory requirements increase exponentially, making it challenging to deploy them on devices with limited memory.
+
+**Layer-wise Model Streaming:
+[35m
+[ Prompt: 0.5 t/s | Generation: 0.0 t/s ]
+[0m[1m[32m
+> rm -rf .///llama3-70b
+[0mIt
